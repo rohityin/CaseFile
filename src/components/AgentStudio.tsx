@@ -32,6 +32,7 @@ import {
   streamAgentChat,
   downloadJson,
   slugifyQuery,
+  isSafeUrl,
 } from "../lib/api";
 import type {
   AgentChatMessage,
@@ -855,12 +856,12 @@ export function AgentStudio({
                               <div className="section-label">How To Use This In Your Argument:</div>
                               <div className="section-strategy">{item.strategicValue}</div>
                             </div>
-                            {item.link && (
+                            {isSafeUrl(item.link) && (
                               <div className="card-footer">
                                 <a
                                   href={item.link}
                                   target="_blank"
-                                  rel="noreferrer"
+                                  rel="noopener noreferrer"
                                   className="courtlistener-link"
                                 >
                                   View Court Record <ArrowSquareOut size={12} />
@@ -904,12 +905,12 @@ export function AgentStudio({
                               <div className="section-label">How To Answer Their Argument:</div>
                               <div className="section-strategy">{item.distinguishingStrategy}</div>
                             </div>
-                            {item.link && (
+                            {isSafeUrl(item.link) && (
                               <div className="card-footer">
                                 <a
                                   href={item.link}
                                   target="_blank"
-                                  rel="noreferrer"
+                                  rel="noopener noreferrer"
                                   className="courtlistener-link"
                                 >
                                   View Court Record <ArrowSquareOut size={12} />
@@ -1206,11 +1207,11 @@ export function AgentStudio({
 
                         <div className="cite-footer">
                           {cite.dateFiled && <span>Filed: {cite.dateFiled}</span>}
-                          {cite.link && (
+                          {isSafeUrl(cite.link) && (
                             <a
                               href={cite.link}
                               target="_blank"
-                              rel="noreferrer"
+                              rel="noopener noreferrer"
                               className="cite-link"
                             >
                               View Court Record <ArrowSquareOut size={12} />
@@ -1252,11 +1253,11 @@ export function AgentStudio({
                           {cur.citation?.[0] && <span className="chip">{cur.citation[0]}</span>}
                         </div>
                       </div>
-                      {caseLink && (
+                      {isSafeUrl(caseLink) && (
                         <a
                           href={caseLink}
                           target="_blank"
-                          rel="noreferrer"
+                          rel="noopener noreferrer"
                           className="btn btn-secondary btn-sm"
                         >
                           CourtListener <ArrowSquareOut size={14} />

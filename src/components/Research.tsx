@@ -20,6 +20,7 @@ import {
   enrichCases,
   exportSchema,
   extractCases,
+  isSafeUrl,
   searchCases,
   slugifyQuery,
 } from "../lib/api";
@@ -767,11 +768,11 @@ export function Research({ initialQuery, onStartAgent }: ResearchProps) {
                       </div>
 
                       <div className="docket-external-actions">
-                        {selected.Link && (
+                        {isSafeUrl(selected.Link) && (
                           <a
                             href={selected.Link}
                             target="_blank"
-                            rel="noreferrer"
+                            rel="noopener noreferrer"
                             className="btn btn-secondary btn-sm"
                           >
                             View on CourtListener <ArrowSquareOut size={13} />

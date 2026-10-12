@@ -5,6 +5,7 @@ import net from "net";
 import http from "http";
 import https from "https";
 import dns from "dns/promises";
+import crypto from "crypto";
 import { fileURLToPath } from "url";
 import rateLimit from "express-rate-limit";
 import { runAgentChatStream } from "./agent.js";
@@ -51,8 +52,24 @@ if (TRUST_PROXY !== undefined && TRUST_PROXY !== "") {
     app.set("trust proxy", TRUST_PROXY);
   }
 }
-const CORS_ORIGINS = (process.env.CORS_ORIGINS || "").split(",").map((s) => s.trim()).filter(Boolean);
-app.use(CORS_ORIGINS.length ? cors({ origin: CORS_ORIGINS }) : cors());
+const defaultDevOrigins = [
+  "http://localhost:8080",
+  "http://127.0.0.1:8080",
+  "http://localhost:5173",
+  "http://127.0.0.1:5173",
+];
+const CORS_ORIGINS = (process.env.CORS_ORIGINS || "")
+  .split(",")
+  .map((s) => s.trim())
+  .filter(Boolean);
+
+const allowedOrigins = CORS_ORIGINS.length
+  ? CORS_ORIGINS
+  : process.env.NODE_ENV === "production"
+  ? false
+  : defaultDevOrigins;
+
+app.use(cors({ origin: allowedOrigins }));
 app.use(express.json({ limit: "2mb" }));
 
 // Rate limits. Cheap reads get a generous bucket; the LLM/scraping endpoints
@@ -71,13 +88,27 @@ const costlyLimiter = rateLimit({
   legacyHeaders: false,
   message: { error: "Hourly limit reached for text extraction and summaries. Please try again in a little while." },
 });
+const agentLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: Number(process.env.RATE_LIMIT_AGENT) || 10,
+  standardHeaders: true,
+  legacyHeaders: false,
+  message: { error: "Agent research limit reached. Please wait a few minutes before starting a new run." },
+});
 
 // Access gate + baseline limiter applied to the whole API surface.
 app.use("/api", apiLimiter, (req, res, next) => {
   if (!ACCESS_PASSWORD || req.path === "/health") return next();
-  const provided = req.get("x-access-password") || req.query.access;
-  if (provided === ACCESS_PASSWORD) return next();
-  return res.status(401).json({ error: "Password required to access this tool." });
+  const provided = req.get("x-access-password") || "";
+  const expectedBuffer = Buffer.from(ACCESS_PASSWORD);
+  const providedBuffer = Buffer.from(provided);
+  if (
+    expectedBuffer.length === providedBuffer.length &&
+    crypto.timingSafeEqual(expectedBuffer, providedBuffer)
+  ) {
+    return next();
+  }
+  return res.status(401).json({ error: "Valid access password required via x-access-password header." });
 });
 
 function clHeaders(extra = {}) {
@@ -202,9 +233,41 @@ function isBlockedIp(ip) {
     if (v === "::1" || v === "::") return true; // loopback / unspecified
     if (v.startsWith("fe80")) return true; // link-local
     if (v.startsWith("fc") || v.startsWith("fd")) return true; // unique local
-    // IPv4-mapped IPv6 (::ffff:a.b.c.d) — validate the embedded IPv4.
-    const mapped = v.match(/::ffff:(\d+\.\d+\.\d+\.\d+)$/);
-    if (mapped) return isBlockedIp(mapped[1]);
+
+    // IPv4-mapped IPv6 (::ffff:a.b.c.d) — dotted-decimal notation
+    const dottedMatch = v.match(/(?:^|:)ffff:(\d+\.\d+\.\d+\.\d+)$/i);
+    if (dottedMatch) return isBlockedIp(dottedMatch[1]);
+
+    // IPv4-mapped IPv6 (::ffff:xxxx:xxxx) — hexadecimal notation
+    const hexMatch = v.match(/(?:^|:)ffff:([0-9a-f]{1,4}):([0-9a-f]{1,4})$/i);
+    if (hexMatch) {
+      const p1 = parseInt(hexMatch[1], 16);
+      const p2 = parseInt(hexMatch[2], 16);
+      const ipv4 = `${(p1 >> 8) & 0xff}.${p1 & 0xff}.${(p2 >> 8) & 0xff}.${p2 & 0xff}`;
+      return isBlockedIp(ipv4);
+    }
+
+    // IPv4-compatible IPv6 (deprecated but could be leveraged)
+    const compatDotted = v.match(/^::(\d+\.\d+\.\d+\.\d+)$/i);
+    if (compatDotted) return isBlockedIp(compatDotted[1]);
+
+    const compatHex = v.match(/^::([0-9a-f]{1,4}):([0-9a-f]{1,4})$/i);
+    if (compatHex) {
+      const p1 = parseInt(compatHex[1], 16);
+      const p2 = parseInt(compatHex[2], 16);
+      const ipv4 = `${(p1 >> 8) & 0xff}.${p1 & 0xff}.${(p2 >> 8) & 0xff}.${p2 & 0xff}`;
+      return isBlockedIp(ipv4);
+    }
+
+    // 6to4 addresses (2002::/16)
+    const match6to4 = v.match(/^2002:([0-9a-f]{1,4}):([0-9a-f]{1,4})/i);
+    if (match6to4) {
+      const p1 = parseInt(match6to4[1], 16);
+      const p2 = parseInt(match6to4[2], 16);
+      const ipv4 = `${(p1 >> 8) & 0xff}.${p1 & 0xff}.${(p2 >> 8) & 0xff}.${p2 & 0xff}`;
+      if (isBlockedIp(ipv4)) return true;
+    }
+
     return false;
   }
   return true; // not a valid IP literal — treat as blocked
@@ -227,7 +290,7 @@ async function resolvePublicUrl(rawUrl) {
   }
   if (parsed.protocol !== "http:" && parsed.protocol !== "https:") return null;
 
-  const host = parsed.hostname;
+  const host = parsed.hostname.replace(/^\[|\]$/g, "");
   // Bare IP literal: no DNS involved, so validate it directly.
   const literal = net.isIP(host);
   if (literal) {
@@ -695,6 +758,19 @@ app.post("/api/enrich", costlyLimiter, async (req, res) => {
   }
 });
 
+function sanitizeExternalLink(rawLink, defaultFallback) {
+  if (!rawLink || typeof rawLink !== "string") return defaultFallback;
+  try {
+    const parsed = new URL(rawLink);
+    if (parsed.protocol === "http:" || parsed.protocol === "https:") {
+      return parsed.toString();
+    }
+  } catch {
+    /* invalid URL */
+  }
+  return defaultFallback;
+}
+
 // Fetches a third-party download URL like /api/extract, so it carries the same
 // tighter limiter rather than only the generous baseline one.
 app.get("/api/case/:id", costlyLimiter, async (req, res) => {
@@ -702,7 +778,7 @@ app.get("/api/case/:id", costlyLimiter, async (req, res) => {
     const id = req.params.id;
     const seed = {
       Id: id,
-      Link: req.query.link ? String(req.query.link) : `${CL_BASE}/opinion/${id}/`,
+      Link: sanitizeExternalLink(req.query.link, `${CL_BASE}/opinion/${id}/`),
       Title: String(req.query.title || "Case"),
       opinionId: /^\d+$/.test(id) ? Number(id) : null,
       downloadUrl: req.query.downloadUrl ? String(req.query.downloadUrl) : null,
@@ -718,12 +794,13 @@ app.get("/api/case/:id", costlyLimiter, async (req, res) => {
       extracted: full.extracted,
     });
   } catch (err) {
-    res.status(500).json({ error: "Could not open court case", detail: String(err.message || err) });
+    console.error("[case] Error opening court case:", err);
+    res.status(500).json({ error: "Could not open court case. Please check the ID or try again." });
   }
 });
 
 // Autonomous Legal Agent SSE Chat Stream
-app.post("/api/agent/chat", async (req, res) => {
+app.post("/api/agent/chat", agentLimiter, async (req, res) => {
   try {
     await runAgentChatStream({
       req,
@@ -737,7 +814,7 @@ app.post("/api/agent/chat", async (req, res) => {
   } catch (err) {
     console.error("[agent] Unhandled chat stream error:", err);
     if (!res.headersSent) {
-      res.status(500).json({ error: "AI assistant ran into an issue", detail: err.message });
+      res.status(500).json({ error: "AI assistant ran into an issue. Please try again." });
     }
   }
 });
@@ -765,7 +842,10 @@ if (!isTestMode) {
     console.log(`TypeSafe System One: ${TYPESAFE_API_KEY ? "ready (jev-latest)" : "not configured (optional)"}`);
     console.log(`Access gate: ${ACCESS_PASSWORD ? "ON (password required)" : "off (public)"}`);
     console.log(
-      `Rate limits: ${apiLimiter.max ?? "?"}/15m api, ${costlyLimiter.max ?? "?"}/60m extract+enrich`
+      `Rate limits: ${apiLimiter.max ?? "?"}/15m api, ${costlyLimiter.max ?? "?"}/60m extract+enrich, ${agentLimiter.max ?? "?"}/15m agent`
     );
   });
 }
+
+export { isBlockedIp, resolvePublicUrl, sanitizeExternalLink, app };
+

@@ -352,3 +352,13 @@ export async function streamAgentChat({
   }
 }
 
+/**
+ * Validate that an external URL begins with http:// or https:// before binding to href,
+ * defending against javascript: or data: link injection attacks.
+ */
+export function isSafeUrl(url?: string | null): boolean {
+  if (!url || typeof url !== "string") return false;
+  return /^https?:\/\//i.test(url.trim());
+}
+
+
