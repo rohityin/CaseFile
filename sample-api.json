@@ -1,0 +1,1342 @@
+﻿{
+    "count":  841,
+    "next":  "https://www.courtlistener.com/api/rest/v4/search/?cursor=cz0xNzY5MDQwMDAwMDAwJnM9MTA4NDEwMjYmdD1vJmQ9MjAyNi0wNy0yNCZwPTI%3D\u0026order_by=dateFiled+desc\u0026page_size=2\u0026q=cyber+crime\u0026type=o",
+    "previous":  null,
+    "results":  [
+                    {
+                        "absolute_url":  "/opinion/10932086/people-v-rainey/",
+                        "attorney":  "",
+                        "caseName":  "People v. Rainey",
+                        "caseNameFull":  "",
+                        "citation":  [
+                                         "2026 NY Slip Op 04451"
+                                     ],
+                        "citeCount":  0,
+                        "cluster_id":  10932086,
+                        "court":  "Appellate Division of the Supreme Court of the State of New York",
+                        "court_citation_string":  "N.Y. App. Div.",
+                        "court_id":  "nyappdiv",
+                        "court_jurisdiction":  "SA",
+                        "dateArgued":  null,
+                        "dateFiled":  "2026-07-16",
+                        "dateReargued":  null,
+                        "dateReargumentDenied":  null,
+                        "docketNumber":  "113480",
+                        "docket_id":  73627482,
+                        "judge":  "",
+                        "lexisCite":  "",
+                        "meta":  {
+                                     "timestamp":  "2026-07-16T16:01:06.396603Z",
+                                     "date_created":  "2026-07-16T16:01:06.153750Z",
+                                     "score":  {
+                                                   "bm25":  null
+                                               }
+                                 },
+                        "neutralCite":  "",
+                        "non_participating_judge_ids":  [
+
+                                                        ],
+                        "opinions":  [
+                                         {
+                                             "author_id":  null,
+                                             "cites":  "2033589 2104105 2150101 2437940 4524056 4684545 5486262 5487139 5487751 5529508 5725627 5743067 5811823 6055947 6226818 6352946 8210246 9349668 9408741 11155160 11180433",
+                                             "download_url":  "http://www.nycourts.gov/reporter/current/3dseries/2026/2026_04451.shtml",
+                                             "id":  11399628,
+                                             "joined_by_ids":  "",
+                                             "local_path":  "html/2026/07/16/people_v._rainey.html",
+                                             "meta":  "@{timestamp=2026-07-16T16:01:33.812151Z; date_created=2026-07-16T16:01:06.219987Z}",
+                                             "ordering_key":  null,
+                                             "per_curiam":  false,
+                                             "sha1":  "2ed2c07ff65ac84c532f7054f2f60b78b9a72395",
+                                             "snippet":  "People v Rainey - 2026 NY Slip Op 04451\n\t\n\t\n\t\t\n    skip to main content\n\n\n\n\n    It appears you are using Adblock. Please disable Adblock to best experience our website.\n\n\n\n\n    \n\n        \n            \n        \n\n        \n            Law Reporting Bureau \n            Thomas J.K. Smith, State Reporter\n\n            \n                \n              ",
+                                             "type":  "combined-opinion"
+                                         }
+                                     ],
+                        "panel_ids":  [
+
+                                      ],
+                        "panel_names":  [
+
+                                        ],
+                        "posture":  "",
+                        "procedural_history":  "",
+                        "scdb_id":  "",
+                        "sibling_ids":  [
+                                            11399628
+                                        ],
+                        "source":  "C",
+                        "status":  "Published",
+                        "suitNature":  "",
+                        "syllabus":  ""
+                    },
+                    {
+                        "absolute_url":  "/opinion/10917415/united-states-v-johnson/",
+                        "attorney":  "",
+                        "caseName":  "United States v. Johnson",
+                        "caseNameFull":  "",
+                        "citation":  [
+
+                                     ],
+                        "citeCount":  0,
+                        "cluster_id":  10917415,
+                        "court":  "Court of Appeals for the First Circuit",
+                        "court_citation_string":  "1st Cir.",
+                        "court_id":  "ca1",
+                        "court_jurisdiction":  "F",
+                        "dateArgued":  "2025-09-09",
+                        "dateFiled":  "2026-07-07",
+                        "dateReargued":  null,
+                        "dateReargumentDenied":  null,
+                        "docketNumber":  "24-1467",
+                        "docket_id":  71299829,
+                        "judge":  "",
+                        "lexisCite":  "",
+                        "meta":  {
+                                     "timestamp":  "2026-07-07T21:00:18.519262Z",
+                                     "date_created":  "2026-07-07T21:00:18.293377Z",
+                                     "score":  {
+                                                   "bm25":  null
+                                               }
+                                 },
+                        "neutralCite":  "",
+                        "non_participating_judge_ids":  [
+
+                                                        ],
+                        "opinions":  [
+                                         {
+                                             "author_id":  null,
+                                             "cites":  "107473 152917 170424 195007 203746 217668 873491 1442193 2648112 2731237 2981751 3172248 4015398 4287285 4389195 4662661 4706073 9423294 9423552 9427638 9429558 9429751 9434104 9440375 9485017 9887326 10591241 11081903",
+                                             "download_url":  "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/24-1467P-01A.pdf",
+                                             "id":  11384950,
+                                             "joined_by_ids":  "",
+                                             "local_path":  "pdf/2026/07/07/united_states_v._johnson.pdf",
+                                             "meta":  "@{timestamp=2026-07-07T21:40:49.404114Z; date_created=2026-07-07T21:00:18.331050Z}",
+                                             "ordering_key":  null,
+                                             "per_curiam":  false,
+                                             "sha1":  "769767dfa54f84225a2a9facdb75c7812d8221f3",
+                                             "snippet":  "              United States Court of Appeals\n                     For the First Circuit\n\n\nNo. 24-1467\n\n                         UNITED STATES,\n\n                            Appellee,\n\n                               v.\n\n                      ERIC ROBERT JOHNSON,\n\n                      Defendant, Appellant.\n\n\n          APPEAL FROM THE UNITED STATES DISTRICT COURT\n               FOR THE DISTRICT OF MASSACHUSETTS\n\n          [Hon. Denise J. Casper, U.S. District Judge]\n\n\n                             B",
+                                             "type":  "combined-opinion"
+                                         }
+                                     ],
+                        "panel_ids":  [
+
+                                      ],
+                        "panel_names":  [
+
+                                        ],
+                        "posture":  "",
+                        "procedural_history":  "",
+                        "scdb_id":  "",
+                        "sibling_ids":  [
+                                            11384950
+                                        ],
+                        "source":  "C",
+                        "status":  "Published",
+                        "suitNature":  "",
+                        "syllabus":  ""
+                    },
+                    {
+                        "absolute_url":  "/opinion/10877432/joshua-aaron-vanarsdale-v-the-state-of-texas/",
+                        "attorney":  "",
+                        "caseName":  "Joshua Aaron Vanarsdale v. the State of Texas",
+                        "caseNameFull":  "",
+                        "citation":  [
+
+                                     ],
+                        "citeCount":  0,
+                        "cluster_id":  10877432,
+                        "court":  "Texas Court of Appeals, 9th District (Beaumont)",
+                        "court_citation_string":  "Tex. App.-Beaumont",
+                        "court_id":  "txctapp9",
+                        "court_jurisdiction":  "SA",
+                        "dateArgued":  null,
+                        "dateFiled":  "2026-06-17",
+                        "dateReargued":  null,
+                        "dateReargumentDenied":  null,
+                        "docketNumber":  "09-24-00371-CR",
+                        "docket_id":  72699787,
+                        "judge":  "",
+                        "lexisCite":  "",
+                        "meta":  {
+                                     "timestamp":  "2026-06-19T10:17:07.156180Z",
+                                     "date_created":  "2026-06-19T10:17:07.072423Z",
+                                     "score":  {
+                                                   "bm25":  null
+                                               }
+                                 },
+                        "neutralCite":  "",
+                        "non_participating_judge_ids":  [
+
+                                                        ],
+                        "opinions":  [
+                                         {
+                                             "author_id":  null,
+                                             "cites":  "1752114 1872434 1877704 2119929 2341345 2539801 2944087 2947646 2947672 2950347 3068620 3168101 4217110 5284545 6110902 9413177 9423233 9428324 9429286 9431937 9435335 9597612 9597878 9605117 9608764 9621185 9641273 9659468 9669130 9672534 9677055 9683957 9716788 9774761 9775951 9776072 9863161 9944054",
+                                             "download_url":  "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=6b796b21-0cf5-438e-a7f9-ee229bb0492b\u0026coa=coa09\u0026DT=Opinion\u0026MediaID=1b86d41b-c710-4afa-81a6-6f34963c9580",
+                                             "id":  11344936,
+                                             "joined_by_ids":  "",
+                                             "local_path":  "pdf/2026/06/17/joshua_aaron_vanarsdale_v._the_state_of_texas.pdf",
+                                             "meta":  "@{timestamp=2026-06-19T10:17:36.747014Z; date_created=2026-06-19T10:17:07.076226Z}",
+                                             "ordering_key":  null,
+                                             "per_curiam":  false,
+                                             "sha1":  "4a13e198d13430f2b822da62c7f470e64ddf70ce",
+                                             "snippet":  "                                   In The\n\n                             Court of Appeals\n\n                  Ninth District of Texas at Beaumont\n\n                            __________________\n\n                            NO. 09-24-00369-CR\n                            NO. 09-24-00370-CR\n                            NO. 09-24-00371-CR\n                            NO. 09-24-00372-CR\n                            NO. 09-24-00373-CR\n                            NO. 09-24-00374-CR\n                         ",
+                                             "type":  "lead-opinion"
+                                         }
+                                     ],
+                        "panel_ids":  [
+
+                                      ],
+                        "panel_names":  [
+
+                                        ],
+                        "posture":  "",
+                        "procedural_history":  "",
+                        "scdb_id":  "",
+                        "sibling_ids":  [
+                                            11344936
+                                        ],
+                        "source":  "C",
+                        "status":  "Published",
+                        "suitNature":  "Poss or Promotion of Child Pornography",
+                        "syllabus":  ""
+                    },
+                    {
+                        "absolute_url":  "/opinion/10865027/doe-v-united-states-department-of-state/",
+                        "attorney":  "",
+                        "caseName":  "Doe v. United States Department of State",
+                        "caseNameFull":  "",
+                        "citation":  [
+
+                                     ],
+                        "citeCount":  0,
+                        "cluster_id":  10865027,
+                        "court":  "District Court, District of Columbia",
+                        "court_citation_string":  "D.D.C.",
+                        "court_id":  "dcd",
+                        "court_jurisdiction":  "FD",
+                        "dateArgued":  null,
+                        "dateFiled":  "2026-05-27",
+                        "dateReargued":  null,
+                        "dateReargumentDenied":  null,
+                        "docketNumber":  "Civil Action No. 2026-1270",
+                        "docket_id":  73398613,
+                        "judge":  "Chief Judge James E. Boasberg",
+                        "lexisCite":  "",
+                        "meta":  {
+                                     "timestamp":  "2026-05-27T19:03:30.349807Z",
+                                     "date_created":  "2026-05-27T19:03:30.099720Z",
+                                     "score":  {
+                                                   "bm25":  null
+                                               }
+                                 },
+                        "neutralCite":  "",
+                        "non_participating_judge_ids":  [
+
+                                                        ],
+                        "opinions":  [
+                                         {
+                                             "author_id":  313,
+                                             "cites":  "722373 2731684 4420531 4554012 7238977",
+                                             "download_url":  "https://ecf.dcd.uscourts.gov/cgi-bin/show_public_doc?2026cv1270-10",
+                                             "id":  11332473,
+                                             "joined_by_ids":  "",
+                                             "local_path":  "pdf/2026/05/27/doe_v._united_states_department_of_state.pdf",
+                                             "meta":  "@{timestamp=2026-05-27T19:03:57.848612Z; date_created=2026-05-27T19:03:30.137084Z}",
+                                             "ordering_key":  null,
+                                             "per_curiam":  false,
+                                             "sha1":  "8ced719e522a3b6280b1a87c87924f154331c825",
+                                             "snippet":  "                            UNITED STATES DISTRICT COURT\n                            FOR THE DISTRICT OF COLUMBIA\n\n\n\n AFAF H. DOE, et al.,\n\n         Plaintiffs.\n                v.                                       Civil Action No. 26-1270\n\n\n U.S. DEPARTMENT OF STATE, et al.,\n\n         Defendants.\n\n\n                          MEMORANDUM OPINION AND ORDER\n\n       Plaintiffs are 49 U.S. visa applicants. See ECF No. 1 (Compl.), Â¶ 5. Their applications\n\nwere suspended under a January 2026 State De",
+                                             "type":  "combined-opinion"
+                                         }
+                                     ],
+                        "panel_ids":  [
+
+                                      ],
+                        "panel_names":  [
+
+                                        ],
+                        "posture":  "",
+                        "procedural_history":  "",
+                        "scdb_id":  "",
+                        "sibling_ids":  [
+                                            11332473
+                                        ],
+                        "source":  "C",
+                        "status":  "Published",
+                        "suitNature":  "",
+                        "syllabus":  ""
+                    },
+                    {
+                        "absolute_url":  "/opinion/10860173/nikko-dambrosio-v-meta-platforms-inc/",
+                        "attorney":  "",
+                        "caseName":  "Nikko D\u0027Ambrosio v. Meta Platforms, Inc.",
+                        "caseNameFull":  "",
+                        "citation":  [
+
+                                     ],
+                        "citeCount":  0,
+                        "cluster_id":  10860173,
+                        "court":  "Court of Appeals for the Seventh Circuit",
+                        "court_citation_string":  "7th Cir.",
+                        "court_id":  "ca7",
+                        "court_jurisdiction":  "F",
+                        "dateArgued":  "2026-02-13",
+                        "dateFiled":  "2026-05-15",
+                        "dateReargued":  null,
+                        "dateReargumentDenied":  null,
+                        "docketNumber":  "25-2231",
+                        "docket_id":  71185504,
+                        "judge":  "Hamilton",
+                        "lexisCite":  "",
+                        "meta":  {
+                                     "timestamp":  "2026-05-15T21:01:19.419425Z",
+                                     "date_created":  "2026-05-15T21:01:19.241884Z",
+                                     "score":  {
+                                                   "bm25":  null
+                                               }
+                                 },
+                        "neutralCite":  "",
+                        "non_participating_judge_ids":  [
+
+                                                        ],
+                        "opinions":  [
+                                         {
+                                             "author_id":  1343,
+                                             "cites":  "460260 781231 2026654 2055796 2074218 2094521 2106976 2196072 2708876 2708937 2709375 2993584 3146276 4098033 4224691 4454066 4518730 4550511 6113783 6330514 7229623 7242880 8488607 8972081 9410695 9432322 9435068 9435339 9438019 9441662 9475973 9518166 9707934 9715652 9730347 10498962 10822772 11061610",
+                                             "download_url":  "https://media.ca7.uscourts.gov/cgi-bin/OpinionsWeb/processWebInputExternal.pl?Submit=Display\u0026Path=Y2026/D05-15/C:25-2231:J:Hamilton:aut:T:fnOp:N:3542080:S:0",
+                                             "id":  11327577,
+                                             "joined_by_ids":  "",
+                                             "local_path":  "pdf/2026/05/15/nikko_dambrosio_v._meta_platforms_inc..pdf",
+                                             "meta":  "@{timestamp=2026-05-16T00:00:37.441355Z; date_created=2026-05-15T21:01:19.299536Z}",
+                                             "ordering_key":  null,
+                                             "per_curiam":  false,
+                                             "sha1":  "97d102138028b4312cc1435ee8086a657a59d243",
+                                             "snippet":  "                               In the\n\n    United States Court of Appeals\n                 For the Seventh Circuit\n                     ____________________\nNo. 25-2231\nNIKKO DâAMBROSIO,\n                                                  Plaintiff-Appellant,\n                                 v.\n\nMETA PLATFORMS INC., et al.,\n                                               Defendants-Appellees.\n                     ____________________\n\n         Appeal from the United States District Court for the\n  ",
+                                             "type":  "combined-opinion"
+                                         }
+                                     ],
+                        "panel_ids":  [
+
+                                      ],
+                        "panel_names":  [
+
+                                        ],
+                        "posture":  "",
+                        "procedural_history":  "",
+                        "scdb_id":  "",
+                        "sibling_ids":  [
+                                            11327577
+                                        ],
+                        "source":  "C",
+                        "status":  "Published",
+                        "suitNature":  "",
+                        "syllabus":  ""
+                    },
+                    {
+                        "absolute_url":  "/opinion/10851612/marco-antonio-perez-v-state-of-alabama/",
+                        "attorney":  "",
+                        "caseName":  "Marco Antonio Perez v. State of Alabama",
+                        "caseNameFull":  "",
+                        "citation":  [
+
+                                     ],
+                        "citeCount":  0,
+                        "cluster_id":  10851612,
+                        "court":  "Court of Criminal Appeals of Alabama",
+                        "court_citation_string":  "Ala. Crim. App.",
+                        "court_id":  "alacrimapp",
+                        "court_jurisdiction":  "SA",
+                        "dateArgued":  null,
+                        "dateFiled":  "2026-05-01",
+                        "dateReargued":  null,
+                        "dateReargumentDenied":  null,
+                        "docketNumber":  "CR-2024-0206",
+                        "docket_id":  73282812,
+                        "judge":  "Judge Kellum",
+                        "lexisCite":  "",
+                        "meta":  {
+                                     "timestamp":  "2026-05-01T14:02:59.830068Z",
+                                     "date_created":  "2026-05-01T14:02:59.709376Z",
+                                     "score":  {
+                                                   "bm25":  null
+                                               }
+                                 },
+                        "neutralCite":  "",
+                        "non_participating_judge_ids":  [
+
+                                                        ],
+                        "opinions":  [
+                                         {
+                                             "author_id":  6150,
+                                             "cites":  "101997 338350 449057 453587 461434 752400 1092255 1093758 1094888 1097747 1099490 1103006 1103094 1105515 1105751 1105827 1105980 1108377 1110275 1111222 1111599 1114525 1124180 1124250 1126205 1126261 1128720 1128828 1132511 1134701 1135542 1141838 1142114 1148410 1152677 1152877 1153471 1207711 1242268 1285296 1326639 1568462 1572117 1590214 1600472 1602981 1608356 1615352 1620417 1634622 1653177 1667847 1670234 1671790 1677410 1678071 1678281 1683376 1688642 1695501 1695882 1697687 1700296 1701382 1702567 1702838 1706805 1707117 1708965 1715081 1715384 1715421 1715957 1721986 1722637 1725845 1726753 1729104 1731856 1735070 1738000 1743621 1752844 1755537 1765577 1765617 1765639 1765907 1769565 1783471 1786776 1789171 1789720 1791857 1792507 1793005 1810884 1811392 1811577 1816780 1817377 1822188 1823589 1824291 1824379 1827111 1830870 1832524 1833838 1836597 1848755 1849906 1854476 1860655 1860740 1886418 1890091 1893769 1897895 1898265 1913446 1921932 1930498 1932024 1932685 1933459 2533132 2542819 2546661 2565966 3227789 3246594 3851577 4526980 4797784 4805384 4812957 4816424 4816539 4816659 4819007 4820276 4828387 4837047 4859617 4867966 4873150 4876855 5043288 5601147 6510268 6687353 7364105 7367373 7557649 7610300 7616428 7620133 7629796 7635666 7646502 7690487 8410279 8748582 9173953 9226134 9422975 9423233 9425708 9425907 9427406 9428034 9428737 9429909 9430412 9430491 9430593 9431052 9431384 9431464 9432245 9432389 9432449 9432610 9433896 9434305 9434566 9463911 9547087 9548049 9591558 9610966 9647256 9660049 9687691 9691899 9750526 9753441 9756564 9771003 9933200 9933407 9934634 9934852 9936082 9936586 9937367 9938545 9938695 10834199",
+                                             "download_url":  "https://publicportal-api.alappeals.gov/courts/b82b30d5-bd3c-46d7-9451-1cb05e470873/cms/case/B6165F07-1CC0-483D-B09C-B6C1BA9BC99B/docketentrydocuments/4DBDD232-A90E-4428-83E1-3A7878B5103A",
+                                             "id":  11319000,
+                                             "joined_by_ids":  "",
+                                             "local_path":  "pdf/2026/05/01/marco_antonio_perez_v._state_of_alabama.pdf",
+                                             "meta":  "@{timestamp=2026-05-01T18:59:03.962771Z; date_created=2026-05-01T14:02:59.726138Z}",
+                                             "ordering_key":  null,
+                                             "per_curiam":  false,
+                                             "sha1":  "5adf5e5e3ba22f2352ab36c64229a9d12daa2eb4",
+                                             "snippet":  "Rel: May 1, 2026\n\n\n\n\nNotice: This opinion is subject to formal revision before publication in the advance sheets of Southern Reporter.\nReaders are requested to notify the Reporter of Decisions, Alabama Appellate Courts, 300 Dexter Avenue,\nMontgomery, Alabama 36104-3741 ((334) 229-0650), of any typographical or other errors, in order that corrections\nmay be made before the opinion is published in Southern Reporter.\n\n\n\n\n                   Alabama Court of Criminal Appeals\n                         ",
+                                             "type":  "combined-opinion"
+                                         }
+                                     ],
+                        "panel_ids":  [
+
+                                      ],
+                        "panel_names":  [
+
+                                        ],
+                        "posture":  "",
+                        "procedural_history":  "",
+                        "scdb_id":  "",
+                        "sibling_ids":  [
+                                            11319000
+                                        ],
+                        "source":  "C",
+                        "status":  "Published",
+                        "suitNature":  "",
+                        "syllabus":  ""
+                    },
+                    {
+                        "absolute_url":  "/opinion/10849886/carrington-owens-v-state-of-tennessee/",
+                        "attorney":  "",
+                        "caseName":  "Carrington Owens v. State of Tennessee",
+                        "caseNameFull":  "",
+                        "citation":  [
+
+                                     ],
+                        "citeCount":  0,
+                        "cluster_id":  10849886,
+                        "court":  "Court of Criminal Appeals of Tennessee",
+                        "court_citation_string":  "Tenn. Crim. App.",
+                        "court_id":  "tenncrimapp",
+                        "court_jurisdiction":  "SA",
+                        "dateArgued":  null,
+                        "dateFiled":  "2026-04-28",
+                        "dateReargued":  null,
+                        "dateReargumentDenied":  null,
+                        "docketNumber":  "M2024-01450-CCA-R3-PC",
+                        "docket_id":  73259546,
+                        "judge":  "Judge Robert L. Holloway, Jr.",
+                        "lexisCite":  "",
+                        "meta":  {
+                                     "timestamp":  "2026-05-07T08:27:39.418365Z",
+                                     "date_created":  "2026-04-28T23:41:03.906308Z",
+                                     "score":  {
+                                                   "bm25":  null
+                                               }
+                                 },
+                        "neutralCite":  "",
+                        "non_participating_judge_ids":  [
+
+                                                        ],
+                        "opinions":  [
+                                         {
+                                             "author_id":  8285,
+                                             "cites":  "1054593 1057609 1060512 1061016 1083472 1769614 2165868 2459031 3173255 9429592 9523365 9524418 9764152",
+                                             "download_url":  "https://www.tncourts.gov/sites/default/files/OpinionsPDFVersion/Majority%20Opinion-%20M2024-01450-CCA-R3-PC.pdf",
+                                             "id":  11317266,
+                                             "joined_by_ids":  "",
+                                             "local_path":  "pdf/2026/04/28/carrington_owens_v._state_of_tennessee.pdf",
+                                             "meta":  "@{timestamp=2026-04-28T23:53:54.700534Z; date_created=2026-04-28T23:41:03.950222Z}",
+                                             "ordering_key":  null,
+                                             "per_curiam":  false,
+                                             "sha1":  "bedb125f2dbe3193e6f632207389465f6128ad9e",
+                                             "snippet":  "                                                                                                              04/28/2026\n            IN THE COURT OF CRIMINAL APPEALS OF TENNESSEE\n                             AT NASHVILLE\n                                      January 13, 2026 Session\n\n                 CARRINGTON OWENS v. STATE OF TENNESSEE\n\n                  Appeal from the Circuit Court for Montgomery County\n                   No. 2016-CR-497 William R. Goodman, III, Judge\n                      ",
+                                             "type":  "lead-opinion"
+                                         },
+                                         {
+                                             "author_id":  8285,
+                                             "cites":  "1054593 1057609 1060512 1061016 1083472 1769614 2165868 2459031 3173255 9429592 9523365 9524418 9764152",
+                                             "download_url":  "https://www.tncourts.gov/sites/default/files/OpinionsPDFVersion/Majority%20Opinion-%20M2024-01450-CCA-R3-PC.pdf",
+                                             "id":  11317267,
+                                             "joined_by_ids":  "",
+                                             "local_path":  "pdf/2026/04/28/carrington_owens_v._state_of_tennessee_1.pdf",
+                                             "meta":  "@{timestamp=2026-05-15T01:08:07.870297Z; date_created=2026-04-28T23:41:08.932788Z}",
+                                             "ordering_key":  null,
+                                             "per_curiam":  false,
+                                             "sha1":  "bedb125f2dbe3193e6f632207389465f6128ad9e",
+                                             "snippet":  "                                                                                                              04/28/2026\n            IN THE COURT OF CRIMINAL APPEALS OF TENNESSEE\n                             AT NASHVILLE\n                                      January 13, 2026 Session\n\n                 CARRINGTON OWENS v. STATE OF TENNESSEE\n\n                  Appeal from the Circuit Court for Montgomery County\n                   No. 2016-CR-497 William R. Goodman, III, Judge\n                      ",
+                                             "type":  "lead-opinion"
+                                         }
+                                     ],
+                        "panel_ids":  [
+
+                                      ],
+                        "panel_names":  [
+
+                                        ],
+                        "posture":  "",
+                        "procedural_history":  "",
+                        "scdb_id":  "",
+                        "sibling_ids":  [
+                                            11317266,
+                                            11317267
+                                        ],
+                        "source":  "C",
+                        "status":  "Published",
+                        "suitNature":  "",
+                        "syllabus":  "Carrington Owens, Petitioner, appeals from the denial of post-conviction relief from Petitioner\u0027s convictions for four counts of rape of a child, twenty-three counts of especially aggravated sexual exploitation of a minor, and twelve counts of aggravated sexual battery of a child less than thirteen years of age and his effective thirty-seven-year sentence. On appeal, Petitioner contends that the post-conviction court erred by denying relief on his ineffective assistance of counsel claims. Discerning no error, we affirm the judgment of the post-conviction court."
+                    },
+                    {
+                        "absolute_url":  "/opinion/10842889/sieger-v-noem/",
+                        "attorney":  "",
+                        "caseName":  "Sieger v. Noem",
+                        "caseNameFull":  "",
+                        "citation":  [
+
+                                     ],
+                        "citeCount":  0,
+                        "cluster_id":  10842889,
+                        "court":  "District Court, District of Columbia",
+                        "court_citation_string":  "D.D.C.",
+                        "court_id":  "dcd",
+                        "court_jurisdiction":  "FD",
+                        "dateArgued":  null,
+                        "dateFiled":  "2026-04-14",
+                        "dateReargued":  null,
+                        "dateReargumentDenied":  null,
+                        "docketNumber":  "Civil Action No. 2025-0547",
+                        "docket_id":  73189649,
+                        "judge":  "Judge Dabney L. Friedrich",
+                        "lexisCite":  "",
+                        "meta":  {
+                                     "timestamp":  "2026-04-14T20:01:22.529881Z",
+                                     "date_created":  "2026-04-14T20:01:17.539638Z",
+                                     "score":  {
+                                                   "bm25":  null
+                                               }
+                                 },
+                        "neutralCite":  "",
+                        "non_participating_judge_ids":  [
+
+                                                        ],
+                        "opinions":  [
+                                         {
+                                             "author_id":  8575,
+                                             "cites":  "108786 118482 147535 174826 182793 184642 185478 186601 187050 187159 187264 219631 709485 735311 804296 1398715 2386706 2400658 2411141 2470490 2474187 2620700 2660252 2714544 2805700 3212872 4112299 4184572 4275229 4398106 7242193 8207570 9432902 9433586 9433719 9434267 9434910 9435068 9435339 9439156 9439371 9439767 9490424 9491539 9515954 9843120 9844016 10478237 11080900",
+                                             "download_url":  "https://ecf.dcd.uscourts.gov/cgi-bin/show_public_doc?2025cv0547-17",
+                                             "id":  11310245,
+                                             "joined_by_ids":  "",
+                                             "local_path":  "pdf/2026/04/14/sieger_v._noem.pdf",
+                                             "meta":  "@{timestamp=2026-04-14T20:02:44.716978Z; date_created=2026-04-14T20:01:17.603401Z}",
+                                             "ordering_key":  null,
+                                             "per_curiam":  false,
+                                             "sha1":  "656f8319e1c46ac3ec293596fd9adcbd82968ce5",
+                                             "snippet":  "                             UNITED STATES DISTRICT COURT\n                             FOR THE DISTRICT OF COLUMBIA\n\n\n    KAREN SIEGER,\n\n                Plaintiff,\n\n         v.\n                                                         No. 25-cv-547 (DLF)\n    MARKWAYNE MULLIN, SECTRETARY,\n    DEPARTMENT OF HOMELAND\n    SECURITY, 1\n\n                Defendant.\n\n\n\n                                 MEMORANDUM OPINION\n\n        Karen Sieger brings this action against the U.S. Department of Homeland Secur",
+                                             "type":  "combined-opinion"
+                                         }
+                                     ],
+                        "panel_ids":  [
+
+                                      ],
+                        "panel_names":  [
+
+                                        ],
+                        "posture":  "",
+                        "procedural_history":  "",
+                        "scdb_id":  "",
+                        "sibling_ids":  [
+                                            11310245
+                                        ],
+                        "source":  "C",
+                        "status":  "Published",
+                        "suitNature":  "",
+                        "syllabus":  ""
+                    },
+                    {
+                        "absolute_url":  "/opinion/10840971/christopher-carmel-burdine-aka-christopher-burdine-v-state-of/",
+                        "attorney":  "",
+                        "caseName":  "Christopher Carmel Burdine a/k/a Christopher Burdine v. State of Mississippi",
+                        "caseNameFull":  "",
+                        "citation":  [
+
+                                     ],
+                        "citeCount":  0,
+                        "cluster_id":  10840971,
+                        "court":  "Court of Appeals of Mississippi",
+                        "court_citation_string":  "Miss. Ct. App.",
+                        "court_id":  "missctapp",
+                        "court_jurisdiction":  "SA",
+                        "dateArgued":  null,
+                        "dateFiled":  "2026-04-07",
+                        "dateReargued":  null,
+                        "dateReargumentDenied":  null,
+                        "docketNumber":  "2025-KA-00154-COA",
+                        "docket_id":  73178696,
+                        "judge":  "",
+                        "lexisCite":  "",
+                        "meta":  {
+                                     "timestamp":  "2026-04-11T02:06:05.795227Z",
+                                     "date_created":  "2026-04-11T02:06:05.684262Z",
+                                     "score":  {
+                                                   "bm25":  null
+                                               }
+                                 },
+                        "neutralCite":  "",
+                        "non_participating_judge_ids":  [
+
+                                                        ],
+                        "opinions":  [
+                                         {
+                                             "author_id":  null,
+                                             "cites":  "1094779 1096134 1106456 1113569 1141622 1648177 1656240 1703275 1711298 1712229 1732675 1786860 1843397 1850621 1858310 1900993 1919018 4386595 4869330 4922835 4922988 4923557 4923616 7732903 9429232 9429310 9432400 9658488 9780482 9806389 9810550 9869888 9878877 9890593",
+                                             "download_url":  "https://courts.ms.gov/Images/Opinions/CO191227.pdf",
+                                             "id":  11308320,
+                                             "joined_by_ids":  "",
+                                             "local_path":  "pdf/2026/04/07/christopher_carmel_burdine_aka_christopher_burdine_v._state_of.pdf",
+                                             "meta":  "@{timestamp=2026-04-11T02:06:47.355544Z; date_created=2026-04-11T02:06:05.688678Z}",
+                                             "ordering_key":  null,
+                                             "per_curiam":  false,
+                                             "sha1":  "14e1f22cfe69c9fd855f3cb9f895b689a04a03cb",
+                                             "snippet":  "         IN THE COURT OF APPEALS OF THE STATE OF MISSISSIPPI\n\n                                NO. 2025-KA-00154-COA\n\nCHRISTOPHER CARMEL BURDINE A/K/A                                             APPELLANT\nCHRISTOPHER BURDINE\n\nv.\n\nSTATE OF MISSISSIPPI                                                           APPELLEE\n\nDATE OF JUDGMENT:                           12/04/2024\nTRIAL JUDGE:                                HON. KATHY KING JACKSON\nCOURT FROM WHICH APPEALED:                  JACKSON COUNTY ",
+                                             "type":  "combined-opinion"
+                                         }
+                                     ],
+                        "panel_ids":  [
+
+                                      ],
+                        "panel_names":  [
+
+                                        ],
+                        "posture":  "",
+                        "procedural_history":  "",
+                        "scdb_id":  "",
+                        "sibling_ids":  [
+                                            11308320
+                                        ],
+                        "source":  "C",
+                        "status":  "Published",
+                        "suitNature":  "",
+                        "syllabus":  "Christopher Carmel Burdine a/k/a Christopher Burdine v. State of Mississippi; Jackson Circuit Court; LC Case : 30:CI1:23-cr-10456-KJ; Ruling Date: 12/04/2024; Ruling Judge: Kathy Jackson; Majority Opinion: McDonald, J. Disposition: Affirmed. Jackson County taxed with costs of appeal. Votes: Barnes, C.J., Carlton and Wilson, P.JJ., Westbrooks, Lawrence, McCarty, Emfinger, Weddle and Lassitter St. Pï¿½, JJ., Concur."
+                    },
+                    {
+                        "absolute_url":  "/opinion/10831131/tom-buck-steele-v-state-of-arkansas/",
+                        "attorney":  "",
+                        "caseName":  "Tom Buck Steele v. State of Arkansas",
+                        "caseNameFull":  "",
+                        "citation":  [
+                                         "2026 Ark. App. 200"
+                                     ],
+                        "citeCount":  0,
+                        "cluster_id":  10831131,
+                        "court":  "Court of Appeals of Arkansas",
+                        "court_citation_string":  "Ark. Ct. App.",
+                        "court_id":  "arkctapp",
+                        "court_jurisdiction":  "SA",
+                        "dateArgued":  null,
+                        "dateFiled":  "2026-04-01",
+                        "dateReargued":  null,
+                        "dateReargumentDenied":  null,
+                        "docketNumber":  "",
+                        "docket_id":  73126899,
+                        "judge":  "",
+                        "lexisCite":  "",
+                        "meta":  {
+                                     "timestamp":  "2026-04-01T14:02:17.214527Z",
+                                     "date_created":  "2026-04-01T14:02:17.092328Z",
+                                     "score":  {
+                                                   "bm25":  null
+                                               }
+                                 },
+                        "neutralCite":  "2026 Ark. App. 200",
+                        "non_participating_judge_ids":  [
+
+                                                        ],
+                        "opinions":  [
+                                         {
+                                             "author_id":  null,
+                                             "cites":  "2805681 5115023 5115493 5282705 9429592 10599194 10839019 11074556 11205281",
+                                             "download_url":  "https://opinions.arcourts.gov/ark/courtofappeals/en/524305/1/document.do",
+                                             "id":  11298368,
+                                             "joined_by_ids":  "",
+                                             "local_path":  "pdf/2026/04/01/tom_buck_steele_v._state_of_arkansas.pdf",
+                                             "meta":  "@{timestamp=2026-04-01T14:03:15.879526Z; date_created=2026-04-01T14:02:17.111353Z}",
+                                             "ordering_key":  null,
+                                             "per_curiam":  false,
+                                             "sha1":  "0aeba1713a1145339e5855362ca51e765663b8bd",
+                                             "snippet":  "                                Cite as 2026 Ark. App. 200\n                   ARKANSAS COURT OF APPEALS\n                                       DIVISION II\n                                       No. CR-25-19\n\n\n\n TOM BUCK STEELE                                Opinion Delivered April 1, 2026\n\n                               APPELLANT\n                                                APPEAL FROM THE HOT SPRING\n                                                COUNTY CIRCUIT COURT\n V.                     ",
+                                             "type":  "combined-opinion"
+                                         }
+                                     ],
+                        "panel_ids":  [
+
+                                      ],
+                        "panel_names":  [
+
+                                        ],
+                        "posture":  "",
+                        "procedural_history":  "",
+                        "scdb_id":  "",
+                        "sibling_ids":  [
+                                            11298368
+                                        ],
+                        "source":  "C",
+                        "status":  "Published",
+                        "suitNature":  "",
+                        "syllabus":  ""
+                    },
+                    {
+                        "absolute_url":  "/opinion/10827458/sinobia-n-brinkley-v-district-of-columbia/",
+                        "attorney":  "",
+                        "caseName":  "Sinobia N. Brinkley v. District of Columbia",
+                        "caseNameFull":  "",
+                        "citation":  [
+
+                                     ],
+                        "citeCount":  0,
+                        "cluster_id":  10827458,
+                        "court":  "District Court, District of Columbia",
+                        "court_citation_string":  "D.D.C.",
+                        "court_id":  "dcd",
+                        "court_jurisdiction":  "FD",
+                        "dateArgued":  null,
+                        "dateFiled":  "2026-03-27",
+                        "dateReargued":  null,
+                        "dateReargumentDenied":  null,
+                        "docketNumber":  "Civil Action No. 2021-1537",
+                        "docket_id":  73104925,
+                        "judge":  "Judge Reggie B. Walton",
+                        "lexisCite":  "",
+                        "meta":  {
+                                     "timestamp":  "2026-03-27T20:01:25.312518Z",
+                                     "date_created":  "2026-03-27T20:01:25.138814Z",
+                                     "score":  {
+                                                   "bm25":  null
+                                               }
+                                 },
+                        "neutralCite":  "",
+                        "non_participating_judge_ids":  [
+
+                                                        ],
+                        "opinions":  [
+                                         {
+                                             "author_id":  3362,
+                                             "cites":  "105222 105312 145806 184389 184733 186196 186298 186615 186889 187030 187264 187525 618771 709485 710872 814479 1370149 1398715 1436568 1521626 2177527 2198126 2400575 2400658 2426079 2452282 2468588 2469102 2469335 2472624 2528817 2542396 2580349 2620700 2660194 2660227 2660347 2661087 2661185 2661646 2662564 2662602 2662718 2663628 2663707 2737655 2754541 2784835 2801925 2814838 2814840 2828788 3005136 3006272 3155944 3214396 4014791 4154573 4156952 4184572 4208492 6346769 7239608 7245403 7249790 8673482 9426800 9427232 9430039 9432902 9433586 9434267 9434910 9434914 9435068 9435339 9439246 9439626 9466584 9490424 9490860 9843120 10478237 10847772",
+                                             "download_url":  "https://ecf.dcd.uscourts.gov/cgi-bin/show_public_doc?2021cv1537-58",
+                                             "id":  11294231,
+                                             "joined_by_ids":  "",
+                                             "local_path":  "pdf/2026/03/27/sinobia_n._brinkley_v._district_of_columbia.pdf",
+                                             "meta":  "@{timestamp=2026-03-27T20:02:57.700307Z; date_created=2026-03-27T20:01:25.205067Z}",
+                                             "ordering_key":  null,
+                                             "per_curiam":  false,
+                                             "sha1":  "3449d079d931e86659478320442eed8ceaa14d4a",
+                                             "snippet":  "                            UNITED STATES DISTRICT COURT\n                            FOR THE DISTRICT OF COLUMBIA\n\n____________________________________\n                                    )\nSINOBIA N. BRINKLEY, et al.,        )\n                                    )\n                  Plaintiffs,       )\n                                    )\n      v.                            )                 Civil Action No. 21-1537 (RBW)\n                                    )\nDISTRICT OF COLUMBIA,              ",
+                                             "type":  "combined-opinion"
+                                         }
+                                     ],
+                        "panel_ids":  [
+
+                                      ],
+                        "panel_names":  [
+
+                                        ],
+                        "posture":  "",
+                        "procedural_history":  "",
+                        "scdb_id":  "",
+                        "sibling_ids":  [
+                                            11294231
+                                        ],
+                        "source":  "C",
+                        "status":  "Published",
+                        "suitNature":  "",
+                        "syllabus":  ""
+                    },
+                    {
+                        "absolute_url":  "/opinion/10805865/state-v-roehrenbeck/",
+                        "attorney":  "",
+                        "caseName":  "State v. Roehrenbeck",
+                        "caseNameFull":  "",
+                        "citation":  [
+                                         "2026 Ohio 797"
+                                     ],
+                        "citeCount":  0,
+                        "cluster_id":  10805865,
+                        "court":  "Ohio Court of Appeals",
+                        "court_citation_string":  "Ohio Ct. App.",
+                        "court_id":  "ohioctapp",
+                        "court_jurisdiction":  "SA",
+                        "dateArgued":  null,
+                        "dateFiled":  "2026-03-09",
+                        "dateReargued":  null,
+                        "dateReargumentDenied":  null,
+                        "docketNumber":  "2025 CA 00066",
+                        "docket_id":  72382965,
+                        "judge":  "Montgomery",
+                        "lexisCite":  "",
+                        "meta":  {
+                                     "timestamp":  "2026-03-09T21:29:52.675286Z",
+                                     "date_created":  "2026-03-09T21:29:52.180427Z",
+                                     "score":  {
+                                                   "bm25":  null
+                                               }
+                                 },
+                        "neutralCite":  "2026 Ohio 797",
+                        "non_participating_judge_ids":  [
+
+                                                        ],
+                        "opinions":  [
+                                         {
+                                             "author_id":  null,
+                                             "cites":  "2690908 3734868 3762792 3782321 4440857 4517071 6496168 6760130 6762927 6786275 6789952 9801647",
+                                             "download_url":  "https://www.supremecourt.ohio.gov/rod/docs/pdf/5/2026/2026-Ohio-797.pdf",
+                                             "id":  11272603,
+                                             "joined_by_ids":  "",
+                                             "local_path":  "pdf/2026/03/09/state_v._roehrenbeck.pdf",
+                                             "meta":  "@{timestamp=2026-03-09T21:30:01.682760Z; date_created=2026-03-09T21:29:52.422690Z}",
+                                             "ordering_key":  null,
+                                             "per_curiam":  false,
+                                             "sha1":  "68b1dda0705fb54ed1daf48a2f9355291f373b1f",
+                                             "snippet":  "[Cite as State v. Roehrenbeck, 2026-Ohio-797.]\n\n\n                                       COURT OF APPEALS\n                                     LICKING COUNTY, OHIO\n                                   FIFTH APPELLATE DISTRICT\n\n\n  STATE OF OHIO,                                 Case No. 2025 CA 00066\n\n  Plaintiff - Appellee                           Opinion And Judgment Entry\n\n  -vs-                                           Appeal from the Licking County Court of\n                                    ",
+                                             "type":  "combined-opinion"
+                                         }
+                                     ],
+                        "panel_ids":  [
+
+                                      ],
+                        "panel_names":  [
+
+                                        ],
+                        "posture":  "",
+                        "procedural_history":  "",
+                        "scdb_id":  "",
+                        "sibling_ids":  [
+                                            11272603
+                                        ],
+                        "source":  "C",
+                        "status":  "Published",
+                        "suitNature":  "",
+                        "syllabus":  "As applied constitutional challenge"
+                    },
+                    {
+                        "absolute_url":  "/opinion/10805671/christian-v-washington-district-of-columbia/",
+                        "attorney":  "",
+                        "caseName":  "Christian v. Washington District of Columbia",
+                        "caseNameFull":  "",
+                        "citation":  [
+
+                                     ],
+                        "citeCount":  0,
+                        "cluster_id":  10805671,
+                        "court":  "District Court, District of Columbia",
+                        "court_citation_string":  "D.D.C.",
+                        "court_id":  "dcd",
+                        "court_jurisdiction":  "FD",
+                        "dateArgued":  null,
+                        "dateFiled":  "2026-03-09",
+                        "dateReargued":  null,
+                        "dateReargumentDenied":  null,
+                        "docketNumber":  "Civil Action No. 2024-2696",
+                        "docket_id":  72379662,
+                        "judge":  "Judge Amit P. Mehta",
+                        "lexisCite":  "",
+                        "meta":  {
+                                     "timestamp":  "2026-03-09T15:02:27.206557Z",
+                                     "date_created":  "2026-03-09T15:02:27.006599Z",
+                                     "score":  {
+                                                   "bm25":  null
+                                               }
+                                 },
+                        "neutralCite":  "",
+                        "non_participating_judge_ids":  [
+
+                                                        ],
+                        "opinions":  [
+                                         {
+                                             "author_id":  2209,
+                                             "cites":  "105222 112254 112699 185871 185950 186128 186764 187408 392961 467462 500341 505486 572126 663691 681587 733241 783846 786479 1497196 1608350 1618450 1800538 2294700 2306501 2315031 2330810 2388243 2568410 2572139 2658722 2660214 2662026 2662801 2674263 2732518 2789718 2801045 2807857 2816311 3171563 3183671 4021171 4191121 4241558 7247214 7263675 7851023 8457721 8998444 9424091 9424613 9425636 9426279 9427232 9429945 9430039 9430387 9431589 9432527 9433650 9434044 9435053 9435068 9435339 9435860 9439292 9476764 9489489 9490424 9689160 9843120 10772896",
+                                             "download_url":  "https://ecf.dcd.uscourts.gov/cgi-bin/show_public_doc?2024cv2696-16",
+                                             "id":  11272408,
+                                             "joined_by_ids":  "",
+                                             "local_path":  "pdf/2026/03/09/christian_v._washington_district_of_columbia.pdf",
+                                             "meta":  "@{timestamp=2026-03-09T15:05:25.073594Z; date_created=2026-03-09T15:02:27.047995Z}",
+                                             "ordering_key":  null,
+                                             "per_curiam":  false,
+                                             "sha1":  "24d4f6aed3e238b779d239f47a10d20dd8c1b3e5",
+                                             "snippet":  "                            UNITED STATES DISTRICT COURT\n                            FOR THE DISTRICT OF COLUMBIA\n___________________________________\n                                    )\nPATRICK CHRISTIAN,                  )\n                                    )                 Civil Action No. 24-cv-02696 (APM)\n                  Plaintiff,        )                 Consolidated with No. 24-cv-02386 (APM)\n                                    )\n      v.                            )\n               ",
+                                             "type":  "combined-opinion"
+                                         }
+                                     ],
+                        "panel_ids":  [
+
+                                      ],
+                        "panel_names":  [
+
+                                        ],
+                        "posture":  "",
+                        "procedural_history":  "",
+                        "scdb_id":  "",
+                        "sibling_ids":  [
+                                            11272408
+                                        ],
+                        "source":  "C",
+                        "status":  "Published",
+                        "suitNature":  "",
+                        "syllabus":  ""
+                    },
+                    {
+                        "absolute_url":  "/opinion/10803549/alberto-dominguez-v-state-of-arkansas/",
+                        "attorney":  "",
+                        "caseName":  "Alberto Dominguez v. State of Arkansas",
+                        "caseNameFull":  "",
+                        "citation":  [
+                                         "2026 Ark. App. 155"
+                                     ],
+                        "citeCount":  0,
+                        "cluster_id":  10803549,
+                        "court":  "Court of Appeals of Arkansas",
+                        "court_citation_string":  "Ark. Ct. App.",
+                        "court_id":  "arkctapp",
+                        "court_jurisdiction":  "SA",
+                        "dateArgued":  null,
+                        "dateFiled":  "2026-03-04",
+                        "dateReargued":  null,
+                        "dateReargumentDenied":  null,
+                        "docketNumber":  "",
+                        "docket_id":  72359932,
+                        "judge":  "",
+                        "lexisCite":  "",
+                        "meta":  {
+                                     "timestamp":  "2026-03-04T15:03:03.464408Z",
+                                     "date_created":  "2026-03-04T15:03:03.047923Z",
+                                     "score":  {
+                                                   "bm25":  null
+                                               }
+                                 },
+                        "neutralCite":  "2026 Ark. App. 155",
+                        "non_participating_judge_ids":  [
+
+                                                        ],
+                        "opinions":  [
+                                         {
+                                             "author_id":  null,
+                                             "cites":  "1690821 2434052 2823564 3150621 5282705 9323298 9371477 9434540 9755494 9877937 10816913 11073133 11073524 11074538 11250551",
+                                             "download_url":  "https://opinions.arcourts.gov/ark/courtofappeals/en/524249/1/document.do",
+                                             "id":  11270279,
+                                             "joined_by_ids":  "",
+                                             "local_path":  "pdf/2026/03/04/alberto_dominguez_v._state_of_arkansas.pdf",
+                                             "meta":  "@{timestamp=2026-03-04T15:03:16.147300Z; date_created=2026-03-04T15:03:03.128815Z}",
+                                             "ordering_key":  null,
+                                             "per_curiam":  false,
+                                             "sha1":  "bef7473285e18d5b6e852f64456e1a05f8c8abb6",
+                                             "snippet":  "                               Cite as 2026 Ark. App. 155\n                   ARKANSAS COURT OF APPEALS\n                                      DIVISION III\n                                      No. CR-25-250\n\n\n\n ALBERTO DOMINGUEZ                             Opinion Delivered March 4, 2026\n\n                               APPELLANT\n                                               APPEAL FROM THE PULASKI\n                                               COUNTY CIRCUIT COURT,\n V.                           ",
+                                             "type":  "combined-opinion"
+                                         }
+                                     ],
+                        "panel_ids":  [
+
+                                      ],
+                        "panel_names":  [
+
+                                        ],
+                        "posture":  "",
+                        "procedural_history":  "",
+                        "scdb_id":  "",
+                        "sibling_ids":  [
+                                            11270279
+                                        ],
+                        "source":  "C",
+                        "status":  "Published",
+                        "suitNature":  "",
+                        "syllabus":  ""
+                    },
+                    {
+                        "absolute_url":  "/opinion/10841132/jaylen-winn-aka-jaylin-winn-v-state-of-mississippi/",
+                        "attorney":  "",
+                        "caseName":  "Jaylen Winn a/k/a Jaylin Winn v. State of Mississippi",
+                        "caseNameFull":  "",
+                        "citation":  [
+
+                                     ],
+                        "citeCount":  0,
+                        "cluster_id":  10841132,
+                        "court":  "Court of Appeals of Mississippi",
+                        "court_citation_string":  "Miss. Ct. App.",
+                        "court_id":  "missctapp",
+                        "court_jurisdiction":  "SA",
+                        "dateArgued":  null,
+                        "dateFiled":  "2026-03-03",
+                        "dateReargued":  null,
+                        "dateReargumentDenied":  null,
+                        "docketNumber":  "2024-KA-01280-COA",
+                        "docket_id":  73178878,
+                        "judge":  "",
+                        "lexisCite":  "",
+                        "meta":  {
+                                     "timestamp":  "2026-04-11T03:16:29.393126Z",
+                                     "date_created":  "2026-04-11T03:16:29.265035Z",
+                                     "score":  {
+                                                   "bm25":  null
+                                               }
+                                 },
+                        "neutralCite":  "",
+                        "non_participating_judge_ids":  [
+
+                                                        ],
+                        "opinions":  [
+                                         {
+                                             "author_id":  null,
+                                             "cites":  "332311 1095294 1106099 1114155 1146767 1148671 1557127 1560476 1603504 1680893 1711107 1720634 1771966 1797214 1829408 1927645 2543000 2814316 3150735 4191633 4308028 4922835 9429592 9661714 9875532",
+                                             "download_url":  "https://courts.ms.gov/Images/Opinions/CO190371.pdf",
+                                             "id":  11308481,
+                                             "joined_by_ids":  "",
+                                             "local_path":  "pdf/2026/03/03/jaylen_winn_aka_jaylin_winn_v._state_of_mississippi.pdf",
+                                             "meta":  "@{timestamp=2026-04-11T03:17:44.084928Z; date_created=2026-04-11T03:16:29.268379Z}",
+                                             "ordering_key":  null,
+                                             "per_curiam":  false,
+                                             "sha1":  "f5cfba42412ec6576a9efbf308b7402fd00f148d",
+                                             "snippet":  "           IN THE COURT OF APPEALS OF THE STATE OF MISSISSIPPI\n\n                                  NO. 2024-KA-01280-COA\n\nJAYLEN WINN A/K/A JAYLIN WINN                                                APPELLANT\n\nv.\n\nSTATE OF MISSISSIPPI                                                           APPELLEE\n\nDATE OF JUDGMENT:                            07/03/2024\nTRIAL JUDGE:                                 HON. JANNIE M. LEWIS-BLACKMON\nCOURT FROM WHICH APPEALED:                   HUMPHREYS COUNTY CIRCU",
+                                             "type":  "combined-opinion"
+                                         }
+                                     ],
+                        "panel_ids":  [
+
+                                      ],
+                        "panel_names":  [
+
+                                        ],
+                        "posture":  "",
+                        "procedural_history":  "",
+                        "scdb_id":  "",
+                        "sibling_ids":  [
+                                            11308481
+                                        ],
+                        "source":  "C",
+                        "status":  "Published",
+                        "suitNature":  "",
+                        "syllabus":  "Jaylen Winn a/k/a Jaylin Winn v. State of Mississippi; Humphreys Circuit Court; LC Case : 27CI1:23-cr-6877; Ruling Date: 07/03/2024; Ruling Judge: Jannie Lewis-Blackmon; Majority Opinion: McDonald, J. Disposition: Affirmed. Humphreys County taxed with costs of appeal. Votes: Barnes, C.J., Carlton, P.J., Westbrooks, McCarty, Emfinger, Weddle and Lassitter St. Pï¿½, JJ., Concur. Wilson, P.J., Concurs in Part and in the Result Without Separate Written Opinion. Lawrence, J., Concurs in Result Only Without Separate Written Opinion."
+                    },
+                    {
+                        "absolute_url":  "/opinion/10799635/state-of-new-jersey-v-gualberto-l-lebron/",
+                        "attorney":  "",
+                        "caseName":  "State of New Jersey v. Gualberto L. Lebron",
+                        "caseNameFull":  "",
+                        "citation":  [
+
+                                     ],
+                        "citeCount":  0,
+                        "cluster_id":  10799635,
+                        "court":  "New Jersey Superior Court Appellate Division",
+                        "court_citation_string":  "N.J. Super. Ct. App. Div.",
+                        "court_id":  "njsuperctappdiv",
+                        "court_jurisdiction":  "SA",
+                        "dateArgued":  null,
+                        "dateFiled":  "2026-02-24",
+                        "dateReargued":  null,
+                        "dateReargumentDenied":  null,
+                        "docketNumber":  "A-3454-22",
+                        "docket_id":  72320087,
+                        "judge":  "",
+                        "lexisCite":  "",
+                        "meta":  {
+                                     "timestamp":  "2026-02-24T15:08:28.207687Z",
+                                     "date_created":  "2026-02-24T15:08:28.116322Z",
+                                     "score":  {
+                                                   "bm25":  null
+                                               }
+                                 },
+                        "neutralCite":  "",
+                        "non_participating_judge_ids":  [
+
+                                                        ],
+                        "opinions":  [
+                                         {
+                                             "author_id":  null,
+                                             "cites":  "186850 196936 815661 1540636 1902533 1929349 1954538 1984978 1988780 1996261 2053991 2160558 2164270 2265258 2272972 2293564 2319232 2320685 2392344 2555707 2558964 2756432 2800844 3175446 3200716 4020021 4170646 6356916 7284064 7314907 7323564 7328298 7328359 7328564 7328649 7332415 7332510 9434921 9435170 9638644 9698967 9760315 9891040 9982813",
+                                             "download_url":  "https://www.njcourts.gov/system/files/court-opinions/2026/a3454-22.pdf",
+                                             "id":  11266309,
+                                             "joined_by_ids":  "",
+                                             "local_path":  "pdf/2026/02/24/state_of_new_jersey_v._gualberto_l._lebron.pdf",
+                                             "meta":  "@{timestamp=2026-02-24T15:09:05.577331Z; date_created=2026-02-24T15:08:28.120245Z}",
+                                             "ordering_key":  null,
+                                             "per_curiam":  false,
+                                             "sha1":  "11759a47da2b7dff2df257b5012986bbfbd019a5",
+                                             "snippet":  "                       RECORD IMPOUNDED\n\n               NOT FOR PUBLICATION WITHOUT THE\n              APPROVAL OF THE APPELLATE DIVISION\n\n                                   SUPERIOR COURT OF NEW JERSEY\n                                   APPELLATE DIVISION\n                                   DOCKET NO. A-3454-22\n\nSTATE OF NEW JERSEY,\n\n     Plaintiff-Respondent,          APPROVED FOR PUBLICATION\n                                           February 24, 2026\nv.                                      APP",
+                                             "type":  "combined-opinion"
+                                         }
+                                     ],
+                        "panel_ids":  [
+
+                                      ],
+                        "panel_names":  [
+
+                                        ],
+                        "posture":  "",
+                        "procedural_history":  "",
+                        "scdb_id":  "",
+                        "sibling_ids":  [
+                                            11266309
+                                        ],
+                        "source":  "C",
+                        "status":  "Published",
+                        "suitNature":  "",
+                        "syllabus":  ""
+                    },
+                    {
+                        "absolute_url":  "/opinion/10796973/united-states-v-ebuka-umeti/",
+                        "attorney":  "",
+                        "caseName":  "United States v. Ebuka Umeti",
+                        "caseNameFull":  "",
+                        "citation":  [
+
+                                     ],
+                        "citeCount":  0,
+                        "cluster_id":  10796973,
+                        "court":  "Court of Appeals for the Fourth Circuit",
+                        "court_citation_string":  "4th Cir.",
+                        "court_id":  "ca4",
+                        "court_jurisdiction":  "F",
+                        "dateArgued":  "2025-12-12",
+                        "dateFiled":  "2026-02-19",
+                        "dateReargued":  null,
+                        "dateReargumentDenied":  null,
+                        "docketNumber":  "24-4478",
+                        "docket_id":  69256011,
+                        "judge":  "",
+                        "lexisCite":  "",
+                        "meta":  {
+                                     "timestamp":  "2026-02-20T21:00:43.748144Z",
+                                     "date_created":  "2026-02-20T21:00:43.644874Z",
+                                     "score":  {
+                                                   "bm25":  null
+                                               }
+                                 },
+                        "neutralCite":  "",
+                        "non_participating_judge_ids":  [
+
+                                                        ],
+                        "opinions":  [
+                                         {
+                                             "author_id":  null,
+                                             "cites":  "105202 182783 206350 215376 725062 1028442 1028513 1038291 2763621 4519408 4568399 8444696 9427680 9489527 9916366",
+                                             "download_url":  "https://www.govinfo.gov/content/pkg/USCOURTS-ca4-24-04478/pdf/USCOURTS-ca4-24-04478-0.pdf",
+                                             "id":  11263645,
+                                             "joined_by_ids":  "",
+                                             "local_path":  "pdf/2026/02/19/united_states_v._ebuka_umeti.pdf",
+                                             "meta":  "@{timestamp=2026-02-20T21:09:52.335461Z; date_created=2026-02-20T21:00:43.648839Z}",
+                                             "ordering_key":  null,
+                                             "per_curiam":  false,
+                                             "sha1":  "fa707cba3e53d442ca5cf7580d3e29f655d6677e",
+                                             "snippet":  "USCA4 Appeal: 24-4478     Doc: 93           Filed: 02/19/2026   Pg: 1 of 22\n\n\n\n\n                                              PUBLISHED\n\n                              UNITED STATES COURT OF APPEALS\n                                  FOR THE FOURTH CIRCUIT\n\n\n                                               No. 24-4478\n\n\n\n        UNITED STATES OF AMERICA,\n\n                    Plaintiff â Appellee,\n\n              v.\n\n        EBUKA RAPHAEL UMETI, a/k/a Ebuka Rapheal Umeti,\n\n                    Defendan",
+                                             "type":  "combined-opinion"
+                                         }
+                                     ],
+                        "panel_ids":  [
+
+                                      ],
+                        "panel_names":  [
+
+                                        ],
+                        "posture":  "",
+                        "procedural_history":  "",
+                        "scdb_id":  "",
+                        "sibling_ids":  [
+                                            11263645
+                                        ],
+                        "source":  "C",
+                        "status":  "Published",
+                        "suitNature":  "",
+                        "syllabus":  ""
+                    },
+                    {
+                        "absolute_url":  "/opinion/10784649/ayden-merrell-v-state-of-arkansas/",
+                        "attorney":  "",
+                        "caseName":  "Ayden Merrell v. State of Arkansas",
+                        "caseNameFull":  "",
+                        "citation":  [
+                                         "2026 Ark. 15"
+                                     ],
+                        "citeCount":  0,
+                        "cluster_id":  10784649,
+                        "court":  "Supreme Court of Arkansas",
+                        "court_citation_string":  "Ark.",
+                        "court_id":  "ark",
+                        "court_jurisdiction":  "S",
+                        "dateArgued":  null,
+                        "dateFiled":  "2026-02-05",
+                        "dateReargued":  null,
+                        "dateReargumentDenied":  null,
+                        "docketNumber":  "",
+                        "docket_id":  72236718,
+                        "judge":  "",
+                        "lexisCite":  "",
+                        "meta":  {
+                                     "timestamp":  "2026-02-05T16:04:30.609574Z",
+                                     "date_created":  "2026-02-05T16:03:46.120789Z",
+                                     "score":  {
+                                                   "bm25":  null
+                                               }
+                                 },
+                        "neutralCite":  "2026 Ark. 15",
+                        "non_participating_judge_ids":  [
+
+                                                        ],
+                        "opinions":  [
+                                         {
+                                             "author_id":  null,
+                                             "cites":  "5109814 9748530 11072836 11076336",
+                                             "download_url":  "https://opinions.arcourts.gov/ark/supremecourt/en/524152/1/document.do",
+                                             "id":  11251289,
+                                             "joined_by_ids":  "",
+                                             "local_path":  "pdf/2026/02/05/ayden_merrell_v._state_of_arkansas.pdf",
+                                             "meta":  "@{timestamp=2026-02-05T16:05:16.835581Z; date_created=2026-02-05T16:03:46.148452Z}",
+                                             "ordering_key":  null,
+                                             "per_curiam":  false,
+                                             "sha1":  "9a1e3c7233fe044c4831da8cd96a4a05c9d00216",
+                                             "snippet":  "                                    Cite as 2026 Ark. 15\n                SUPREME COURT OF ARKANSAS\n                                      No. CR-24-603\n\n\n                                                Opinion Delivered: February 5, 2026\n\n\n AYDEN MERRELL\n                               APPELLANT\n                                                APPEAL FROM THE MILLER\n V.                                             COUNTY CIRCUIT COURT\n                                                [NO. 46CR-24-295]",
+                                             "type":  "combined-opinion"
+                                         }
+                                     ],
+                        "panel_ids":  [
+
+                                      ],
+                        "panel_names":  [
+
+                                        ],
+                        "posture":  "",
+                        "procedural_history":  "",
+                        "scdb_id":  "",
+                        "sibling_ids":  [
+                                            11251289
+                                        ],
+                        "source":  "C",
+                        "status":  "Published",
+                        "suitNature":  "",
+                        "syllabus":  ""
+                    },
+                    {
+                        "absolute_url":  "/opinion/10781321/united-states-v-taylor/",
+                        "attorney":  "",
+                        "caseName":  "United States v. TAYLOR",
+                        "caseNameFull":  "",
+                        "citation":  [
+
+                                     ],
+                        "citeCount":  0,
+                        "cluster_id":  10781321,
+                        "court":  "Navy-Marine Corps Court of Criminal Appeals",
+                        "court_citation_string":  "N.M.C.C.A.",
+                        "court_id":  "nmcca",
+                        "court_jurisdiction":  "MA",
+                        "dateArgued":  null,
+                        "dateFiled":  "2026-01-29",
+                        "dateReargued":  null,
+                        "dateReargumentDenied":  null,
+                        "docketNumber":  "202400313",
+                        "docket_id":  72203877,
+                        "judge":  "",
+                        "lexisCite":  "",
+                        "meta":  {
+                                     "timestamp":  "2026-01-29T17:02:02.205575Z",
+                                     "date_created":  "2026-01-29T17:01:50.801845Z",
+                                     "score":  {
+                                                   "bm25":  null
+                                               }
+                                 },
+                        "neutralCite":  "",
+                        "non_participating_judge_ids":  [
+
+                                                        ],
+                        "opinions":  [
+                                         {
+                                             "author_id":  null,
+                                             "cites":  "4147707 8313409 8647046 8647699 9500188",
+                                             "download_url":  "https://www.jag.navy.mil/documents/12217/TAYLOR_202400313_UNPUB.pdf",
+                                             "id":  11247944,
+                                             "joined_by_ids":  "",
+                                             "local_path":  "pdf/2026/01/29/united_states_v._taylor.pdf",
+                                             "meta":  "@{timestamp=2026-01-29T17:02:08.283543Z; date_created=2026-01-29T17:01:50.806006Z}",
+                                             "ordering_key":  null,
+                                             "per_curiam":  false,
+                                             "sha1":  "109e3c367b53eabd493cb4aefd21e535b6be9dfa",
+                                             "snippet":  "This opinion is subject to administrative correction before final disposition.\n\n\n\n\n                                 Before\n                      DALY, GROSS, and de GROOT\n                        Appellate Military Judges\n\n                        _________________________\n\n                          UNITED STATES\n                              Appellee\n\n                                     v.\n\n                       Ahmar D. TAYLOR\n               Lance Corporal (E-3), U.S. Marine Corps\n            ",
+                                             "type":  "combined-opinion"
+                                         }
+                                     ],
+                        "panel_ids":  [
+
+                                      ],
+                        "panel_names":  [
+
+                                        ],
+                        "posture":  "",
+                        "procedural_history":  "",
+                        "scdb_id":  "",
+                        "sibling_ids":  [
+                                            11247944
+                                        ],
+                        "source":  "C",
+                        "status":  "Published",
+                        "suitNature":  "",
+                        "syllabus":  ""
+                    },
+                    {
+                        "absolute_url":  "/opinion/10841026/tavion-pegues-aka-tavion-nysheim-pegues-v-state-of-mississippi/",
+                        "attorney":  "",
+                        "caseName":  "Tavion Pegues a/k/a Tavion Nysheim Pegues v. State of Mississippi",
+                        "caseNameFull":  "",
+                        "citation":  [
+
+                                     ],
+                        "citeCount":  0,
+                        "cluster_id":  10841026,
+                        "court":  "Mississippi Supreme Court",
+                        "court_citation_string":  "Miss.",
+                        "court_id":  "miss",
+                        "court_jurisdiction":  "S",
+                        "dateArgued":  null,
+                        "dateFiled":  "2026-01-22",
+                        "dateReargued":  null,
+                        "dateReargumentDenied":  null,
+                        "docketNumber":  "2024-KA-01001-SCT",
+                        "docket_id":  73178760,
+                        "judge":  "",
+                        "lexisCite":  "",
+                        "meta":  {
+                                     "timestamp":  "2026-04-11T02:31:29.476004Z",
+                                     "date_created":  "2026-04-11T02:31:29.198193Z",
+                                     "score":  {
+                                                   "bm25":  null
+                                               }
+                                 },
+                        "neutralCite":  "",
+                        "non_participating_judge_ids":  [
+
+                                                        ],
+                        "opinions":  [
+                                         {
+                                             "author_id":  null,
+                                             "cites":  "1096680 1102792 1104480 1770220 1841427 1862290 1870382 1919675 3516900 4922921 4923705 9824315 9837885",
+                                             "download_url":  "https://courts.ms.gov/Images/Opinions/CO189905.pdf",
+                                             "id":  11308375,
+                                             "joined_by_ids":  "",
+                                             "local_path":  "pdf/2026/01/22/tavion_pegues_aka_tavion_nysheim_pegues_v._state_of_mississippi.pdf",
+                                             "meta":  "@{timestamp=2026-04-11T02:32:09.174058Z; date_created=2026-04-11T02:31:29.202515Z}",
+                                             "ordering_key":  null,
+                                             "per_curiam":  false,
+                                             "sha1":  "eab00b1119cd7c60abb5ce8b56e6d45a6b7f11e6",
+                                             "snippet":  "                     IN THE SUPREME COURT OF MISSISSIPPI\n\n                                 NO. 2024-KA-01001-SCT\n\nTAVION PEGUES a/k/a TAVION NYSHEIM\nPEGUES\n\nv.\n\nSTATE OF MISSISSIPPI\n\n\nDATE OF JUDGMENT:                            08/09/2024\nTRIAL JUDGE:                                 HON. JAMES T. KITCHENS, JR.\nTRIAL COURT ATTORNEYS:                       PAYTREEN KEYUM DAVIDSON\n                                             JAY HOWARD HURDLE\n                                             LEOGHAIN S",
+                                             "type":  "combined-opinion"
+                                         }
+                                     ],
+                        "panel_ids":  [
+
+                                      ],
+                        "panel_names":  [
+
+                                        ],
+                        "posture":  "",
+                        "procedural_history":  "",
+                        "scdb_id":  "",
+                        "sibling_ids":  [
+                                            11308375
+                                        ],
+                        "source":  "C",
+                        "status":  "Published",
+                        "suitNature":  "",
+                        "syllabus":  "Tavion Pegues a/k/a Tavion Nysheim Pegues v. State of Mississippi; Oktibbeha Circuit Court; LC Case : 53CI1:23-cr-00051-K-1; Ruling Date: 08/09/2024; Ruling Judge: James Kitchens, Jr.; Majority Opinion: Coleman, P.J. Disposition: Affirmed. Oktibbeha County taxed with costs of appeal. Votes: Randolph, C.J., King, P.J., Ishee, Griffis, Sullivan and Branning, JJ., Concur."
+                    }
+                ]
+}

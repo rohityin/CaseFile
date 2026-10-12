@@ -1,0 +1,34 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      // Runs the Express API under the debugger — set breakpoints in server/index.js.
+      "name": "API server (Node)",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "program": "${workspaceFolder}/server/index.js",
+      "runtimeArgs": ["--env-file-if-exists=.env"],
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      // Starts Vite (via preLaunchTask) then opens the app in Chrome with source
+      // maps — set breakpoints in src/ .tsx files.
+      "name": "Web app (Chrome)",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:8080",
+      "webRoot": "${workspaceFolder}/src",
+      "preLaunchTask": "vite-dev"
+    }
+  ],
+  "compounds": [
+    {
+      // ▶ Select this one in the Run panel, then press F5.
+      "name": "CaseFile: Full Stack",
+      "configurations": ["API server (Node)", "Web app (Chrome)"],
+      "stopAll": true
+    }
+  ]
+}

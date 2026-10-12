@@ -1,0 +1,14 @@
+node_modules
+dist
+.git
+.env
+.env.*
+!.env.example
+.chrome-profile
+.chrome-debug
+.chrome-out.html
+.chrome-err.txt
+archive
+.shots
+*.log
+npm-debug.log*

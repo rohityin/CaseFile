@@ -1,0 +1,40 @@
+{
+  "name": "casefile-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k -n api,web -c red,cyan \"node --env-file-if-exists=.env server/index.js\" \"vite\"",
+    "dev:api": "node --env-file-if-exists=.env server/index.js",
+    "dev:web": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "oxlint src server",
+    "typecheck": "tsc -p tsconfig.app.json --noEmit",
+    "test": "node --test",
+    "check": "npm run lint && npm run typecheck && npm run test",
+    "start": "node --env-file-if-exists=.env server/index.js"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.2",
+    "@phosphor-icons/react": "^2.1.10",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.6.0",
+    "gsap": "^3.15.0",
+    "motion": "^12.23.12",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.7.0",
+    "concurrently": "^9.2.0",
+    "oxlint": "^1.83.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.3.6"
+  }
+}
